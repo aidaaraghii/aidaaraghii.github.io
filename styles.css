@@ -1,1 +1,897 @@
-:root{--navy:#102e70;--ink:#121b2c;--white:#f9f9f5;--pink:#f8a6c3;--sky:#b8daf7;--lav:#cbb4d9;--muted:#d6e2f4;--font:'Manrope',Arial,sans-serif}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--navy);font-family:var(--font);color:var(--white)}.page-width{width:min(1140px,calc(100% - 64px));margin:auto}.nav{height:92px;display:flex;align-items:center;font-size:14px;font-weight:700}.wordmark{color:#fff;text-decoration:none;font-size:20px}.wordmark span,.intro-name span{color:var(--pink)}.nav-links{display:flex;gap:31px;margin-left:64px}.nav a{color:var(--muted);text-decoration:none}.availability{margin-left:auto;font-size:11px!important;color:#fff!important;border:1px solid rgba(255,255,255,.35);padding:9px 13px;border-radius:30px}.availability i{display:inline-block;width:7px;height:7px;border-radius:50%;background:#8bdfb6;margin-right:7px}.hero{min-height:470px;padding-top:111px;position:relative}.intro-name{font-size:19px;font-weight:600;margin:0 0 29px}.hero h1{font-size:clamp(42px,5.4vw,74px);line-height:1.08;letter-spacing:-3.6px;max-width:900px;margin:0}.hero h1 em,footer h2 em{font-family:Georgia,serif;font-weight:400;color:var(--pink)}.scroll-link{position:absolute;bottom:42px;color:#fff;text-decoration:none;font-size:12px;font-weight:700;display:flex;gap:11px;align-items:center}.scroll-link span{display:grid;place-items:center;border:1px solid #a6c6e9;border-radius:50%;width:30px;height:30px;font-size:17px}.hero-note{position:absolute;right:-12px;top:304px;color:#8ba7da;font-size:11px;line-height:1.65;text-align:right}.wave-reel{padding-bottom:115px}.wave-reel>p{font-size:16px;line-height:1.7;max-width:540px;color:var(--muted);margin:0 0 26px}.wave-video{height:min(34vw,390px);min-height:280px;border-radius:13px;overflow:hidden;position:relative;background:#050607;isolation:isolate}.wave-video img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;opacity:0;animation:waveFrames 5s infinite ease-in-out}.wave-video img:nth-of-type(1){animation-delay:0s}.wave-video img:nth-of-type(2){animation-delay:1.25s}.wave-video img:nth-of-type(3){animation-delay:2.5s}.wave-video img:nth-of-type(4){animation-delay:3.75s}.wave-video span{position:absolute;right:14px;top:14px;z-index:2;color:#e1f4ff;background:rgba(4,25,49,.55);border:1px solid rgba(210,239,255,.4);border-radius:99px;padding:7px 10px;font-size:10px;font-weight:700;backdrop-filter:blur(6px)}@keyframes waveFrames{0%,20%{opacity:1;transform:scale(1.01)}25%,100%{opacity:0;transform:scale(1.035)}}.work{padding-bottom:120px}.section-heading{display:flex;justify-content:space-between;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#b8cdf0;margin-bottom:23px}.section-heading p{margin:0}.section-heading span{color:var(--pink)}.case-card{border-radius:13px;margin-bottom:30px;min-height:397px;overflow:hidden;color:var(--ink);transition:.3s}.case-card:hover{transform:translateY(-6px);box-shadow:0 17px 32px rgba(0,0,0,.2)}.case-card a{display:flex;min-height:397px;color:inherit;text-decoration:none;position:relative}.pink{background:var(--pink)}.blue-card{background:var(--sky)}.lavender{background:var(--lav)}.case-copy{width:48%;padding:65px 0 45px 75px;z-index:2}.eyebrow{font-size:10px;font-weight:800;letter-spacing:.1em;margin:0 0 18px}.case-copy h2{font-size:31px;line-height:1.05;letter-spacing:-1.6px;margin:0 0 24px;max-width:370px}.case-copy>p:not(.eyebrow){font-size:14px;line-height:1.55;max-width:325px;margin:0;color:#30394e}.case-link{display:inline-block;font-size:12px;font-weight:800;margin-top:36px;border-bottom:1px solid;padding-bottom:4px}.visual{width:52%;position:relative;overflow:hidden}.phone{position:absolute;width:176px;height:342px;background:#fff;border:5px solid #202532;border-radius:23px;box-shadow:6px 6px 0 rgba(25,34,62,.13);padding:28px 15px}.phone:before{content:'';position:absolute;top:8px;left:calc(50% - 25px);width:50px;height:10px;border-radius:0 0 9px 9px;background:#202532}.phone-one{left:5%;top:112px;transform:rotate(-32deg)}.phone-two{left:42%;top:-21px;transform:rotate(31deg)}.phone-three{right:-6%;top:115px;transform:rotate(29deg)}.phone-bar{height:6px;width:43px;background:#4b80d6;border-radius:4px;margin-bottom:14px}.mini-logo{color:#3273d0;font-weight:800;font-size:14px;margin-bottom:23px}.line{height:6px;background:#dfe4e9;border-radius:5px;width:64%;margin:9px 0}.wide{width:100%}.tag{width:37px;height:9px;border-radius:5px;margin:12px 0}.blue{background:#5c8ddf}.pinktag{background:#f99da8}.green{background:#74caa3}.login-title{font-size:19px;font-weight:700;line-height:1.1;margin-top:44px}.login-button{background:#2872df;height:25px;border-radius:6px;margin-top:57px}.laptop{display:grid;place-items:center}.laptop-screen{height:201px;width:335px;background:#fbfbfa;border:8px solid #e2e5eb;border-bottom:0;border-radius:10px 10px 0 0;position:relative;top:8px;padding:18px}.laptop-base{width:400px;height:15px;background:#e4e7ed;border-radius:2px 2px 40% 40%}.browser-dot{width:8px;height:8px;border-radius:50%;background:#9467df}.persian{text-align:right;font-size:18px;font-weight:700;line-height:1.25;direction:rtl}.screen-line{height:5px;background:#dce0e6;border-radius:4px;margin-top:11px}.screen-line.a{width:58%}.screen-line.b{width:76%}.little-person{position:absolute;left:70px;bottom:25px;color:#ce7878;font-size:38px}.responsive{display:grid;place-items:center}.device{position:absolute;background:#fff;border:7px solid #e7e4e1;box-shadow:7px 8px 0 rgba(88,66,120,.12)}.desktop{width:329px;height:195px;right:7%;top:84px;border-radius:8px;padding:16px}.mobile{width:88px;height:175px;left:17%;bottom:23px;border-radius:13px;padding:13px 8px;z-index:1}.site-top{font-size:8px;font-weight:800;color:#3d3d43;border-bottom:1px solid #eee;padding-bottom:6px}.site-top span{float:right}.graph{height:55px;margin-top:17px;background:repeating-linear-gradient(30deg,#dfe4ec 0 2px,transparent 2px 20px)}.mobile-chart{height:47px;margin-top:16px;background:repeating-linear-gradient(120deg,#c8cfde 0 2px,transparent 2px 12px)}.about{border-top:1px solid rgba(214,226,244,.25);padding:105px 0 120px;display:grid;grid-template-columns:27% 1fr;gap:45px}.about h2{font-size:clamp(32px,4.2vw,58px);line-height:1.08;letter-spacing:-2.7px;margin:0;max-width:730px}.about div>p{max-width:520px;color:var(--muted);line-height:1.65;font-size:15px;margin:27px 0}.tags{display:flex;flex-wrap:wrap;gap:8px}.tags span{border:1px solid #6f87b8;border-radius:30px;padding:7px 10px;color:#dce8fb;font-size:11px}footer{background:#f5f5f3;color:var(--ink);min-height:475px}.contact-wrap{padding:90px 0 28px;min-height:475px;position:relative}.contact-wrap .eyebrow{color:#506389}.contact-wrap h2{font-size:clamp(46px,6vw,82px);line-height:1;letter-spacing:-3.7px;margin:20px 0 32px}.contact-wrap h2 em{color:#df779d}.email{color:var(--ink);font-size:20px;font-weight:700;text-decoration:none;border-bottom:2px solid;padding-bottom:5px}.footer-bottom{position:absolute;bottom:28px;width:100%;display:flex;justify-content:space-between;font-size:11px;color:#697081}.footer-bottom div{display:flex;gap:22px}.footer-bottom a{color:var(--ink);font-weight:700;text-decoration:none}.reveal{opacity:0;transform:translateY(25px);transition:.7s}.reveal.in{opacity:1;transform:none}@media(max-width:720px){.page-width{width:calc(100% - 36px)}.nav{height:72px}.wordmark{font-size:17px}.nav-links{gap:14px;margin-left:auto;font-size:12px}.availability,.hero-note{display:none}.hero{min-height:390px;padding-top:79px}.intro-name{font-size:15px}.hero h1{letter-spacing:-2.2px}.scroll-link{bottom:30px}.wave-reel{padding-bottom:75px}.wave-reel>p{font-size:14px}.wave-video{height:50vw;min-height:0}.section-heading{font-size:9px}.work{padding-bottom:80px}.case-card,.case-card a{min-height:555px}.case-copy{width:100%;padding:39px 31px}.case-copy h2{font-size:28px}.case-copy>p:not(.eyebrow){font-size:13px}.case-link{margin-top:24px}.visual{position:absolute;width:100%;height:255px;bottom:0}.phone{width:126px;height:245px;border-width:4px;border-radius:17px;padding:22px 10px}.phone-one{left:8%;top:54px}.phone-two{left:40%;top:-10px}.phone-three{right:-5%;top:75px}.laptop-screen{width:244px;height:145px;padding:12px}.laptop-base{width:292px}.persian{font-size:13px}.responsive .desktop{width:235px;height:140px;right:8%;top:56px}.responsive .mobile{left:8%;height:125px;width:65px;bottom:15px}.about{display:block;padding:75px 0}.about>div{margin-top:30px}.about h2{letter-spacing:-1.9px}.contact-wrap{padding-top:70px}.footer-bottom{font-size:9px}.footer-bottom div{gap:10px}}
+/* ==========================================================
+   1. COLORS AND FONT
+   Change a color here and it updates everywhere on the site.
+   ========================================================== */
+:root {
+  --navy: #102e70;
+  --ink: #121b2c;
+  --white: #f9f9f5;
+  --pink: #f8a6c3;
+  --sky: #b8daf7;
+  --lav: #cbb4d9;
+  --muted: #d6e2f4;
+  --font: 'Manrope', Arial, sans-serif;
+}
+
+
+/* ==========================================================
+   2. GLOBAL BASICS
+   ========================================================== */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--navy);
+  font-family: var(--font);
+  color: var(--white);
+}
+
+
+/* ==========================================================
+   3. PAGE WIDTH
+   Keeps content centered and not too wide.
+   ========================================================== */
+.page-width {
+  width: min(1140px, calc(100% - 64px));
+  margin: auto;
+}
+
+
+/* ==========================================================
+   4. NAVIGATION
+   ========================================================== */
+.nav {
+  height: 92px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.wordmark {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Pink accent for the star symbol (logo and hero greeting) */
+.wordmark span,
+.intro-name span {
+  color: var(--pink);
+}
+
+.nav-links {
+  display: flex;
+  gap: 31px;
+  margin-left: 64px;
+}
+
+.nav a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.availability {
+  margin-left: auto;
+  font-size: 11px !important;
+  color: #fff !important;
+  border: 1px solid rgba(255,255,255,.35);
+  padding: 9px 13px;
+  border-radius: 30px;
+}
+
+/* Small green status dot */
+.availability i {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #8bdfb6;
+  margin-right: 7px;
+}
+
+
+/* ==========================================================
+   5. HERO (intro section at the top)
+   ========================================================== */
+.hero {
+  min-height: 470px;
+  padding-top: 111px;
+  position: relative;
+}
+
+.intro-name {
+  font-size: 19px;
+  font-weight: 600;
+  margin: 0 0 29px;
+}
+
+.hero h1 {
+  font-size: clamp(42px, 5.4vw, 74px);
+  line-height: 1.08;
+  letter-spacing: -3.6px;
+  max-width: 900px;
+  margin: 0;
+}
+
+/* Italic pink highlight words (hero title and footer title) */
+.hero h1 em,
+footer h2 em {
+  font-family: Georgia, serif;
+  font-weight: 400;
+  color: var(--pink);
+}
+
+.scroll-link {
+  position: absolute;
+  bottom: 42px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  gap: 11px;
+  align-items: center;
+}
+
+/* Circle around the down arrow */
+.scroll-link span {
+  display: grid;
+  place-items: center;
+  border: 1px solid #a6c6e9;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 17px;
+}
+
+.hero-note {
+  position: absolute;
+  right: -12px;
+  top: 304px;
+  color: #8ba7da;
+  font-size: 11px;
+  line-height: 1.65;
+  text-align: right;
+}
+
+
+/* ==========================================================
+   6. WAVE REEL (image slideshow)
+   Note: no element in your index.html uses these classes
+   right now. Kept in case you still need them.
+   ========================================================== */
+.wave-reel {
+  padding-bottom: 115px;
+}
+
+.wave-reel > p {
+  font-size: 16px;
+  line-height: 1.7;
+  max-width: 540px;
+  color: var(--muted);
+  margin: 0 0 26px;
+}
+
+.wave-video {
+  height: min(34vw, 390px);
+  min-height: 280px;
+  border-radius: 13px;
+  overflow: hidden;
+  position: relative;
+  background: #050607;
+  isolation: isolate;
+}
+
+.wave-video img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  animation: waveFrames 5s infinite ease-in-out;
+}
+
+/* Each image starts its fade 1.25 seconds after the previous one */
+.wave-video img:nth-of-type(1) { animation-delay: 0s; }
+.wave-video img:nth-of-type(2) { animation-delay: 1.25s; }
+.wave-video img:nth-of-type(3) { animation-delay: 2.5s; }
+.wave-video img:nth-of-type(4) { animation-delay: 3.75s; }
+
+.wave-video span {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  z-index: 2;
+  color: #e1f4ff;
+  background: rgba(4,25,49,.55);
+  border: 1px solid rgba(210,239,255,.4);
+  border-radius: 99px;
+  padding: 7px 10px;
+  font-size: 10px;
+  font-weight: 700;
+  backdrop-filter: blur(6px);
+}
+
+/* Fade-in / fade-out animation used by the slideshow images */
+@keyframes waveFrames {
+  0%, 20% {
+    opacity: 1;
+    transform: scale(1.01);
+  }
+  25%, 100% {
+    opacity: 0;
+    transform: scale(1.035);
+  }
+}
+
+
+/* ==========================================================
+   7. SELECTED WORK (section heading)
+   ========================================================== */
+.work {
+  padding-bottom: 120px;
+}
+
+.section-heading {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: #b8cdf0;
+  margin-bottom: 23px;
+}
+
+.section-heading p {
+  margin: 0;
+}
+
+.section-heading span {
+  color: var(--pink);
+}
+
+
+/* ==========================================================
+   8. CASE CARDS (the three colored project cards)
+   ========================================================== */
+.case-card {
+  border-radius: 13px;
+  margin-bottom: 30px;
+  min-height: 397px;
+  overflow: hidden;
+  color: var(--ink);
+  transition: .3s;
+}
+
+/* Card lifts up slightly when you hover over it */
+.case-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 17px 32px rgba(0,0,0,.2);
+}
+
+.case-card a {
+  display: flex;
+  min-height: 397px;
+  color: inherit;
+  text-decoration: none;
+  position: relative;
+}
+
+/* Card background colors */
+.pink {
+  background: var(--pink);
+}
+
+.blue-card {
+  background: var(--sky);
+}
+
+.lavender {
+  background: var(--lav);
+}
+
+
+/* ==========================================================
+   9. CASE CARD TEXT
+   ========================================================== */
+.case-copy {
+  width: 48%;
+  padding: 65px 0 45px 75px;
+  z-index: 2;
+}
+
+/* Small uppercase label (also used in About and Footer) */
+.eyebrow {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .1em;
+  margin: 0 0 18px;
+}
+
+.case-copy h2 {
+  font-size: 31px;
+  line-height: 1.05;
+  letter-spacing: -1.6px;
+  margin: 0 0 24px;
+  max-width: 370px;
+}
+
+/* Description paragraph (every <p> except the eyebrow label) */
+.case-copy > p:not(.eyebrow) {
+  font-size: 14px;
+  line-height: 1.55;
+  max-width: 325px;
+  margin: 0;
+  color: #30394e;
+}
+
+.case-link {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 800;
+  margin-top: 36px;
+  border-bottom: 1px solid;
+  padding-bottom: 4px;
+}
+
+
+/* ==========================================================
+   10. CARD VISUAL AREA
+   The container on the other side of the text.
+   ========================================================== */
+.visual {
+  width: 52%;
+  position: relative;
+  overflow: hidden;
+}
+/* ==========================================================
+   11. PHONE MOCKUPS (card 1)
+   ========================================================== */
+.phone {
+  position: absolute;
+  width: 176px;
+  height: 342px;
+  background: #fff;
+  border: 5px solid #202532;
+  border-radius: 23px;
+  box-shadow: 6px 6px 0 rgba(25,34,62,.13);
+  padding: 28px 15px;
+}
+
+/* Black notch at the top of each phone */
+.phone:before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: calc(50% - 25px);
+  width: 50px;
+  height: 10px;
+  border-radius: 0 0 9px 9px;
+  background: #202532;
+}
+
+/* Position and tilt of each phone */
+.phone-one {
+  left: 5%;
+  top: 112px;
+  transform: rotate(-32deg);
+}
+
+.phone-two {
+  left: 42%;
+  top: -21px;
+  transform: rotate(31deg);
+}
+
+.phone-three {
+  right: -6%;
+  top: 115px;
+  transform: rotate(29deg);
+}
+
+/* Items drawn inside the phones */
+.phone-bar {
+  height: 6px;
+  width: 43px;
+  background: #4b80d6;
+  border-radius: 4px;
+  margin-bottom: 14px;
+}
+
+.mini-logo {
+  color: #3273d0;
+  font-weight: 800;
+  font-size: 14px;
+  margin-bottom: 23px;
+}
+
+.line {
+  height: 6px;
+  background: #dfe4e9;
+  border-radius: 5px;
+  width: 64%;
+  margin: 9px 0;
+}
+
+.wide {
+  width: 100%;
+}
+
+.tag {
+  width: 37px;
+  height: 9px;
+  border-radius: 5px;
+  margin: 12px 0;
+}
+
+/* Tag colors */
+.blue {
+  background: #5c8ddf;
+}
+
+.pinktag {
+  background: #f99da8;
+}
+
+.green {
+  background: #74caa3;
+}
+
+.login-title {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-top: 44px;
+}
+
+.login-button {
+  background: #2872df;
+  height: 25px;
+  border-radius: 6px;
+  margin-top: 57px;
+}
+
+
+/* ==========================================================
+   12. LAPTOP MOCKUP (card 2)
+   ========================================================== */
+.laptop {
+  display: grid;
+  place-items: center;
+}
+
+.laptop-screen {
+  height: 201px;
+  width: 335px;
+  background: #fbfbfa;
+  border: 8px solid #e2e5eb;
+  border-bottom: 0;
+  border-radius: 10px 10px 0 0;
+  position: relative;
+  top: 8px;
+  padding: 18px;
+}
+
+.laptop-base {
+  width: 400px;
+  height: 15px;
+  background: #e4e7ed;
+  border-radius: 2px 2px 40% 40%;
+}
+
+.browser-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #9467df;
+}
+
+/* Persian text (right-to-left) */
+.persian {
+  text-align: right;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.25;
+  direction: rtl;
+}
+
+/* Gray placeholder lines (also used in card 3) */
+.screen-line {
+  height: 5px;
+  background: #dce0e6;
+  border-radius: 4px;
+  margin-top: 11px;
+}
+
+.screen-line.a {
+  width: 58%;
+}
+
+.screen-line.b {
+  width: 76%;
+}
+
+.little-person {
+  position: absolute;
+  left: 70px;
+  bottom: 25px;
+  color: #ce7878;
+  font-size: 38px;
+}
+
+
+/* ==========================================================
+   13. DESKTOP + MOBILE MOCKUPS (card 3)
+   ========================================================== */
+.responsive {
+  display: grid;
+  place-items: center;
+}
+
+.device {
+  position: absolute;
+  background: #fff;
+  border: 7px solid #e7e4e1;
+  box-shadow: 7px 8px 0 rgba(88,66,120,.12);
+}
+
+.desktop {
+  width: 329px;
+  height: 195px;
+  right: 7%;
+  top: 84px;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.mobile {
+  width: 88px;
+  height: 175px;
+  left: 17%;
+  bottom: 23px;
+  border-radius: 13px;
+  padding: 13px 8px;
+  z-index: 1;
+}
+
+.site-top {
+  font-size: 8px;
+  font-weight: 800;
+  color: #3d3d43;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 6px;
+}
+
+.site-top span {
+  float: right;
+}
+
+/* Striped patterns that imitate charts */
+.graph {
+  height: 55px;
+  margin-top: 17px;
+  background: repeating-linear-gradient(30deg,#dfe4ec 0 2px,transparent 2px 20px);
+}
+
+.mobile-chart {
+  height: 47px;
+  margin-top: 16px;
+  background: repeating-linear-gradient(120deg,#c8cfde 0 2px,transparent 2px 12px);
+}
+
+
+/* ==========================================================
+   14. ABOUT ME
+   ========================================================== */
+.about {
+  border-top: 1px solid rgba(214,226,244,.25);
+  padding: 105px 0 120px;
+  display: grid;
+  grid-template-columns: 27% 1fr;
+  gap: 45px;
+}
+
+.about h2 {
+  font-size: clamp(32px, 4.2vw, 58px);
+  line-height: 1.08;
+  letter-spacing: -2.7px;
+  margin: 0;
+  max-width: 730px;
+}
+
+.about div > p {
+  max-width: 520px;
+  color: var(--muted);
+  line-height: 1.65;
+  font-size: 15px;
+  margin: 27px 0;
+}
+
+/* Skill tags (User research, UX strategy, ...) */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tags span {
+  border: 1px solid #6f87b8;
+  border-radius: 30px;
+  padding: 7px 10px;
+  color: #dce8fb;
+  font-size: 11px;
+}
+
+
+/* ==========================================================
+   15. FOOTER / CONTACT
+   ========================================================== */
+footer {
+  background: #f5f5f3;
+  color: var(--ink);
+  min-height: 475px;
+}
+
+.contact-wrap {
+  padding: 90px 0 28px;
+  min-height: 475px;
+  position: relative;
+}
+
+.contact-wrap .eyebrow {
+  color: #506389;
+}
+
+.contact-wrap h2 {
+  font-size: clamp(46px, 6vw, 82px);
+  line-height: 1;
+  letter-spacing: -3.7px;
+  margin: 20px 0 32px;
+}
+
+.contact-wrap h2 em {
+  color: #df779d;
+}
+
+.email {
+  color: var(--ink);
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 2px solid;
+  padding-bottom: 5px;
+}
+
+.footer-bottom {
+  position: absolute;
+  bottom: 28px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: #697081;
+}
+
+.footer-bottom div {
+  display: flex;
+  gap: 22px;
+}
+
+.footer-bottom a {
+  color: var(--ink);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+
+/* ==========================================================
+   16. SCROLL REVEAL ANIMATION
+   Elements start hidden and slide up. script.js adds the
+   "in" class when they scroll into view.
+   ========================================================== */
+.reveal {
+  opacity: 0;
+  transform: translateY(25px);
+  transition: .7s;
+}
+
+.reveal.in {
+  opacity: 1;
+  transform: none;
+}
+
+
+/* ==========================================================
+   17. MOBILE LAYOUT (screens 720px wide or smaller)
+   These rules override the ones above on small screens.
+   Keep this section at the END of the file.
+   ========================================================== */
+@media (max-width: 720px) {
+
+  /* Page and navigation */
+  .page-width {
+    width: calc(100% - 36px);
+  }
+
+  .nav {
+    height: 72px;
+  }
+
+  .wordmark {
+    font-size: 17px;
+  }
+
+  .nav-links {
+    gap: 14px;
+    margin-left: auto;
+    font-size: 12px;
+  }
+
+  .availability,
+  .hero-note {
+    display: none;
+  }
+
+  /* Hero */
+  .hero {
+    min-height: 390px;
+    padding-top: 79px;
+  }
+
+  .intro-name {
+    font-size: 15px;
+  }
+
+  .hero h1 {
+    letter-spacing: -2.2px;
+  }
+
+  .scroll-link {
+    bottom: 30px;
+  }
+
+  /* Wave reel */
+  .wave-reel {
+    padding-bottom: 75px;
+  }
+
+  .wave-reel > p {
+    font-size: 14px;
+  }
+
+  .wave-video {
+    height: 50vw;
+    min-height: 0;
+  }
+
+  /* Selected work */
+  .section-heading {
+    font-size: 9px;
+  }
+
+  .work {
+    padding-bottom: 80px;
+  }
+
+  /* Case cards: text on top, mockup underneath */
+  .case-card,
+  .case-card a {
+    min-height: 555px;
+  }
+
+  .case-copy {
+    width: 100%;
+    padding: 39px 31px;
+  }
+
+  .case-copy h2 {
+    font-size: 28px;
+  }
+
+  .case-copy > p:not(.eyebrow) {
+    font-size: 13px;
+  }
+
+  .case-link {
+    margin-top: 24px;
+  }
+
+  .visual {
+    position: absolute;
+    width: 100%;
+    height: 255px;
+    bottom: 0;
+  }
+
+  /* Phone mockups */
+  .phone {
+    width: 126px;
+    height: 245px;
+    border-width: 4px;
+    border-radius: 17px;
+    padding: 22px 10px;
+  }
+
+  .phone-one {
+    left: 8%;
+    top: 54px;
+  }
+
+  .phone-two {
+    left: 40%;
+    top: -10px;
+  }
+
+  .phone-three {
+    right: -5%;
+    top: 75px;
+  }
+
+  /* Laptop mockup */
+  .laptop-screen {
+    width: 244px;
+    height: 145px;
+    padding: 12px;
+  }
+
+  .laptop-base {
+    width: 292px;
+  }
+
+  .persian {
+    font-size: 13px;
+  }
+
+  /* Desktop + mobile mockups */
+  .responsive .desktop {
+    width: 235px;
+    height: 140px;
+    right: 8%;
+    top: 56px;
+  }
+
+  .responsive .mobile {
+    left: 8%;
+    height: 125px;
+    width: 65px;
+    bottom: 15px;
+  }
+
+  /* About */
+  .about {
+    display: block;
+    padding: 75px 0;
+  }
+
+  .about > div {
+    margin-top: 30px;
+  }
+
+  .about h2 {
+    letter-spacing: -1.9px;
+  }
+
+  /* Footer */
+  .contact-wrap {
+    padding-top: 70px;
+  }
+
+  .footer-bottom {
+    font-size: 9px;
+  }
+
+  .footer-bottom div {
+    gap: 10px;
+  }
+  
+
+}

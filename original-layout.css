@@ -302,3 +302,33 @@
         flex: auto;
     }
 }
+
+/* Each source is 1144 x 1040px (2x), displayed at half size for sharp Retina rendering. */
+@media (min-width: 721px) {
+    .case-card,
+    .case-card a {
+        min-height: 520px;
+    }
+
+    .project-image {
+        width: 572px;
+        height: 520px;
+        flex: 0 0 572px;
+        overflow: hidden;
+    }
+}
+
+.project-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 720px) {
+    .project-image {
+        width: 100%;
+        height: 255px;
+        flex: auto;
+    }
+}

@@ -303,6 +303,11 @@
     }
 }
 
+/* Bilingual / Persian presentation */
+.language-toggle{margin-left:20px;border:1px solid rgba(255,255,255,.42);border-radius:999px;background:transparent;color:#fff;padding:8px 11px;font:700 11px/1 Manrope,Arial,sans-serif;cursor:pointer}.language-toggle span:first-child{color:var(--pink)}.language-toggle-divider{opacity:.55;margin:0 4px}
+html[lang="fa"] body{font-family:Vazirmatn,Tahoma,sans-serif}html[lang="fa"] .nav{justify-content:flex-start}html[lang="fa"] .nav-links{margin-left:0}html[lang="fa"] .intro-name,html[lang="fa"] .hero,html[lang="fa"] .case-copy,html[lang="fa"] .about,html[lang="fa"] .contact-wrap{text-align:right}html[lang="fa"] .hero h1{letter-spacing:-.035em;line-height:1.45}html[lang="fa"] .hero h1 em,html[lang="fa"] footer h2 em{font-family:Vazirmatn,Tahoma,sans-serif;font-style:normal}html[lang="fa"] .hero-bottom{flex-direction:row-reverse}html[lang="fa"] .case-copy{align-items:flex-end}html[lang="fa"] .blue-card .case-copy{padding-right:105px;padding-left:28px}html[lang="fa"] .pink .case-copy,html[lang="fa"] .lavender .case-copy{padding-right:28px;padding-left:105px}html[lang="fa"] .case-copy h2,html[lang="fa"] .case-copy>p:not(.eyebrow){letter-spacing:0;line-height:1.75}html[lang="fa"] .case-copy .eyebrow,html[lang="fa"] .case-link,html[lang="fa"] .section-heading,html[lang="fa"] .tags{letter-spacing:0}html[lang="fa"] .footer-bottom{flex-direction:row-reverse}html[lang="fa"] .language-toggle{font-family:Vazirmatn,Tahoma,sans-serif;margin-left:0;margin-right:20px}
+@media(max-width:720px){.language-toggle{margin-left:14px}.nav-links{margin-left:0}html[lang="fa"] .language-toggle{margin-right:14px}html[lang="fa"] .blue-card .case-copy,html[lang="fa"] .pink .case-copy,html[lang="fa"] .lavender .case-copy{padding-right:31px;padding-left:31px}}
+
 /* Each source is 1144 x 1040px (2x), displayed at half size for sharp Retina rendering. */
 @media (min-width: 721px) {
     .case-card,
@@ -332,3 +337,21 @@
         flex: auto;
     }
 }
+
+/* Persian layout refinements: keep the project-image order, while each text block reads naturally in RTL. */
+html[lang="fa"] .case-card a{direction:ltr}html[lang="fa"] .case-copy{direction:rtl;text-align:right;align-items:flex-end}html[lang="fa"] .case-copy h2,html[lang="fa"] .case-copy>p:not(.eyebrow){width:100%;max-width:430px}html[lang="fa"] .case-copy .eyebrow{align-self:flex-end}html[lang="fa"] .case-link{align-self:flex-end}html[lang="fa"] .hero-bottom>p{direction:rtl;text-align:right}html[lang="fa"] .scroll-link{direction:rtl;flex-direction:row-reverse}html[lang="fa"] .tags{direction:rtl;justify-content:flex-start}html[lang="fa"] .footer-bottom{direction:rtl}html[lang="fa"] .footer-bottom>div{direction:ltr}
+@media(min-width:721px){html[lang="fa"] .case-copy h2{font-size:36px;line-height:1.65}html[lang="fa"] .case-copy>p:not(.eyebrow){font-size:15px;line-height:2}html[lang="fa"] .blue-card .case-copy{padding-right:88px;padding-left:52px}html[lang="fa"] .pink .case-copy,html[lang="fa"] .lavender .case-copy{padding-right:52px;padding-left:88px}}
+@media(max-width:720px){html[lang="fa"] .hero h1{font-size:clamp(34px,9vw,52px);line-height:1.7}html[lang="fa"] .case-copy h2{line-height:1.65}html[lang="fa"] .case-copy>p:not(.eyebrow){line-height:2}}
+
+/* Anjoman font family - loaded locally so Persian stays consistent and fast. */
+@font-face{font-family:Anjoman;src:url("fonts/Anjoman-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:Anjoman;src:url("fonts/Anjoman-Medium.woff2") format("woff2");font-weight:500;font-style:normal;font-display:swap}@font-face{font-family:Anjoman;src:url("fonts/Anjoman-SemiBold.woff2") format("woff2");font-weight:600;font-style:normal;font-display:swap}@font-face{font-family:Anjoman;src:url("fonts/Anjoman-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap}@font-face{font-family:Anjoman;src:url("fonts/Anjoman-ExtraBold.woff2") format("woff2");font-weight:800;font-style:normal;font-display:swap}
+
+/* Final Persian hierarchy and positioning. */
+html[lang="fa"] body,html[lang="fa"] .language-toggle{font-family:Anjoman,Tahoma,sans-serif}html[lang="fa"] .hero h1{font-family:Anjoman,Tahoma,sans-serif;font-size:clamp(38px,4.35vw,58px);font-weight:600;line-height:1.55;letter-spacing:-.02em;max-width:1040px}html[lang="fa"] .hero h1 em,html[lang="fa"] footer h2 em{font-family:Anjoman,Tahoma,sans-serif;font-weight:700;font-style:normal}.language-toggle{position:fixed;top:22px;left:24px;z-index:50;margin:0!important;box-shadow:0 8px 22px rgba(0,0,0,.16)}html[lang="fa"] .language-toggle{left:24px;right:auto;margin:0!important}html[lang="fa"] .pink a,html[lang="fa"] .lavender a{flex-direction:row-reverse}html[lang="fa"] .case-copy .eyebrow{width:100%;text-align:right;align-self:stretch}html[lang="fa"] .case-copy{font-family:Anjoman,Tahoma,sans-serif}html[lang="fa"] .case-copy h2{font-weight:700}html[lang="fa"] .case-copy>p:not(.eyebrow){font-weight:500}
+@media(max-width:720px){.language-toggle,html[lang="fa"] .language-toggle{top:14px;left:14px;right:auto}html[lang="fa"] .hero h1{font-size:clamp(30px,8.5vw,45px);line-height:1.65;font-weight:600}html[lang="fa"] .pink a,html[lang="fa"] .lavender a{flex-direction:column}}
+/* Keep card composition identical in both languages; only the Persian text direction changes. */
+html[lang="fa"] .pink a,html[lang="fa"] .lavender a{flex-direction:row}
+
+/* Align the language switcher to the page grid rather than the browser edge. */
+.language-toggle,html[lang="fa"] .language-toggle{left:max(32px,calc((100vw - 1140px)/2));right:auto;top:29px;margin:0!important;background:rgba(224,232,244,.88);color:#102e70;border:1px solid rgba(214,226,244,.44);box-shadow:0 6px 18px rgba(0,0,0,.12);appearance:none}.language-toggle span:first-child{color:#102e70}.language-toggle-divider{display:none}.language-toggle span:last-child{color:#5872a6;margin-left:5px}
+@media(max-width:720px){.language-toggle,html[lang="fa"] .language-toggle{left:18px;right:auto;top:19px}.language-toggle span:last-child{margin-left:4px}html[lang="fa"] .pink a,html[lang="fa"] .lavender a{flex-direction:column}}
